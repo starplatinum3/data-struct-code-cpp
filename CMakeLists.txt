@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.15)
+project(datastruct)
+
+set(CMAKE_CXX_STANDARD 14)
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=GBK")
+#https://blog.csdn.net/weixin_43851212/article/details/90485420
+#add_executable(datastruct  main.cpp util/printUtilNotClass.h util/printUtilNotClass.cpp
+#       strUtil/strUtil.h  util/ListUtil.h util/ListUtil.cpp  util/PrintUtil.h util/PrintUtil.cpp
+#       strUtil/strUtil.cpp  AVL.cpp  AVL.h  banker2.cpp Matrix.cpp Matrix.h
+#       )
+#cpp要放在后面嘛
+
+add_executable(${PROJECT_NAME} 寻找最大块的问题知乎.cpp
+        )
+
+#add_executable(datastruct  main.cpp util/printUtilNotClass.h util/printUtilNotClass.cpp
+#        MathUtil.h
+#        cutLog.h reconstruct/build_tree.c reconstruct/build_tree.h reconstruct/print_tree.c
+#        reconstruct/print_tree.h reconstruct/print_tree_final.c
+#        reconstruct/queue.c reconstruct/queue.h reconstruct/test_for_print_tree.c reconstruct/tree.c
+#        reconstruct/tree.h)
+
